@@ -5,7 +5,7 @@ import { QueryClientProvider } from "react-query";
 import { getClient } from "./queryClient";
 import { ReactQueryDevtools } from "react-query/devtools";
 import Gnb from "./components/gnb";
-import "./scss/index.scss";
+
 function App() {
   const queryClient = getClient();
   const el = useRoutes(routes);
